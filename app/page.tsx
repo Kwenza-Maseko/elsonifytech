@@ -16,7 +16,7 @@ export default function Home() {
       <p className="md:w-2/3 mt-6 text-gray-400">
         Welcome to ElsonifyTech – Where Innovation Meets Execution.
       </p>
-      <div className="flex flex-wrap gap-4 md:gap-6 mt-6 w-full justify-center  orange-box rounded-lg p-4">
+      <div className="flex flex-wrap gap-2 md:gap-6 mt-6 w-full justify-center  orange-box rounded-2xl p-2 md:p-4">
         <div className="flex flex-col gap-2 md:gap-4 items-center rounded-lg p-2 ">
           <div className="border border-blue-600 shadow-lg rounded-3xl  bg-blue-500 p-4">
             <Code size={20} />
