@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Besley:ital,wght@0,400..900;1,400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 @import "tailwindcss";
 
 :root {
@@ -20,7 +22,48 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/assets/dark-bg.png");
+  background-size: cover; /* Ensures full coverage */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps background static while scrolling */
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e3e3e4;
+  min-height: 100svh; /* Ensures body stretches at least full screen */
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  max-width: 1185px;
+}
+
+.shadow-box{
+  background-color: #010029;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.418); 
+}
+.bellota-regular {
+  font-family: "Bellota", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 7pt;
+  letter-spacing: 0.3px;
+}
+.besley-font{
+  font-family: "Besley", serif;
+  font-weight: 600;
+  font-size: 20pt;
+  letter-spacing: -0.2px;
+}
+.text-outline {
+  -webkit-text-stroke: 1px #ff8a00; /* Orange outline */
+  color: #010029; /* Make the inner part transparent */
 }
