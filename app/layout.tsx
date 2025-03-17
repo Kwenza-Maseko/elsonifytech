@@ -18,30 +18,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-sm"
+      <body className="text-sm cover-up"
       >
-        <Navbar />
-        {children}
-        <div className="py-6 flex justify-start w-full px-4 md:px-0">
-          <div className="container m-auto ">
-            <Rate />
+          <Navbar />
+          {children}
+          <div className="py-6 flex justify-start w-full px-4 md:px-0">
+            <div className="container m-auto ">
+              <Rate />
+            </div>
           </div>
-        </div>
-        <div className="bg-gray-800 mt-4 py-6 w-full">
-          <div className="container m-auto flex flex-wrap items-center gap-6 lg:gap-16">
-            <Newsletter />
+          <div className="bg-gray-800 mt-4 py-6 w-full">
+            <div className="container m-auto flex flex-wrap items-center gap-6 lg:gap-16">
+              <Newsletter />
+            </div>
           </div>
-        </div>
-        <div className="w-full">
-          <div className="container m-auto px-4 lg:px-0">
-            <Footer />
+          <div className="w-full">
+            <div className="container m-auto px-4 lg:px-0">
+              <Footer />
+            </div>
           </div>
-        </div>
-        <div className="border-t border-gray-500 w-full">
-          <div className="container m-auto px-4 lg:px-0">
-            <BottomFooter />
+          <div className="border-t border-gray-500 w-full">
+            <div className="container m-auto px-4 lg:px-0">
+              <BottomFooter />
+            </div>
           </div>
-        </div>
       </body>
     </html>
   );
