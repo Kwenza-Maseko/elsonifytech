@@ -16,34 +16,34 @@ export default function Home() {
       <p className="md:w-2/3 mt-6 text-gray-400">
         Welcome to ElsonifyTech – Where Innovation Meets Execution.
       </p>
-      <div className="flex flex-wrap gap-4 md:gap-6 mt-6">
-        <div className="flex flex-col gap-4 items-center rounded-lg p-2 ">
+      <div className="flex flex-wrap gap-4 md:gap-6 mt-6 w-full justify-center">
+        <div className="flex flex-col gap-2 md:gap-4 items-center rounded-lg p-2 ">
           <div className="border border-blue-600 shadow-lg rounded-3xl  bg-blue-500 p-4">
             <Code size={20} />
           </div>
           Web Development
         </div>
-        <div className="flex flex-col gap-4 items-center rounded-lg p-2 ">
+        <div className="flex flex-col gap-2 md:gap-4 items-center rounded-lg p-2 ">
           <div className="border border-green-600 shadow-lg rounded-3xl  bg-green-500 p-4">
             <Briefcase size={20} />
           </div>
           Business Marketing
         </div>
-        <div className="flex flex-col gap-4 items-center rounded-lg p-2 ">
+        <div className="flex flex-col gap-2 md:gap-4 items-center rounded-lg p-2 ">
           <div className="border border-purple-600 shadow-lg rounded-3xl  bg-purple-500 p-4">
             <Server size={20} />
           </div>
           Website Hosting
         </div>
-        <div className="flex flex-col gap-4 items-center rounded-lg p-2 ">
+        <div className="flex flex-col gap-2 md:gap-4 items-center rounded-lg p-2 ">
           <div className="border border-orange-600 shadow-lg rounded-3xl  bg-orange-500 p-4">
-          <Smartphone size={20} />
+            <Smartphone size={20} />
           </div>
           Mobile Development
         </div>
-        <div className="flex flex-col gap-4 items-center p-2 ">
+        <div className="flex flex-col gap-2 md:gap-4 items-center p-2 ">
           <div className="border border-gray-600 shadow-lg rounded-3xl  bg-gray-500 p-4">
-          <MoreHorizontal size={20} />
+            <MoreHorizontal size={20} />
           </div>
           More
         </div>
