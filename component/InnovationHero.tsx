@@ -15,7 +15,7 @@ const InnovationHero = () => {
                     <ambientLight intensity={0.6} />
                     <directionalLight position={[2, 2, 2]} />
 
-                    <Sphere args={[1.2, 64, 64]} scale={2}>
+                    <Sphere args={[1.2, 64, 64]} scale={2} castShadow receiveShadow>
                         <meshStandardMaterial
                             color="#582d61"
                             transparent
