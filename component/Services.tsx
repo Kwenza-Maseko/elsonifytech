@@ -4,7 +4,7 @@ import { Code, Briefcase, Server } from "lucide-react";
 const Services = () => {
     return (
         <div className='text-gray-400 my-10 flex flex-col items-center'>
-            <p className='text-gray-300 text-2xl font-bold mb-4'>Our Services</p>
+            <p className='text-gray-300 text-xl md:text-2xl  font-bold mb-4'>Our Services</p>
             <p className="max-w-xl text-center px-4">
                 At <span className="text-gray-300 font-semibold">ElsonifyTech</span>, we believe in <span className="text-gray-300 font-semibold">Innovate Limitless</span>—pushing boundaries, redefining possibilities, and building solutions that transform businesses. Our cutting-edge services ensure that you stay ahead in a digital-first world.
             </p>

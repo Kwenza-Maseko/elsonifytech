@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className='my-16 text-gray-400'>
       <div className="flex flex-col gap-6 items-center">
-        <p className="text-gray-300 text-2xl font-bold">
+        <p className="text-gray-300 text-xl md:text-2xl  font-bold">
           About ElsonifyTech
         </p>
         <p className='text-center'>At ElsonifyTech, we don’t just build software—we craft innovative, scalable, and impactful digital solutions. </p>
