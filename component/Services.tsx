@@ -1,7 +1,16 @@
 import React from 'react'
 import { Code, Briefcase, Server } from "lucide-react";
+import clsx from "clsx";
+
+
 
 const Services = () => {
+    const colors = {
+        "blue-500": "border-blue-500 bg-blue-500",
+        "yellow-500": "border-yellow-500 bg-yellow-500",
+        "purple-500": "border-purple-500 bg-purple-500"
+    };
+
     return (
         <div className='text-gray-400 my-10 flex flex-col items-center'>
             <p className='text-gray-300 text-xl md:text-2xl  font-bold mb-4'>Our Services</p>
@@ -63,11 +72,16 @@ const Services = () => {
                     }].map((item, index) => (
                         <div
                             key={index}
-                            className={`relative flex flex-col items-center w-[320px] bg-gray-900 p-6 rounded-lg border-2 border-${item.color} shadow-lg ${item.shadow} hover:shadow-xl transition-shadow duration-300`}
+                            className={clsx(
+                                "relative flex flex-col items-center md:w-[320px] w-full bg-gray-900 p-6 rounded-lg border-2 shadow-lg hover:shadow-xl transition-shadow duration-300",
+                                `border-${item.color}`, // This will now work
+                                item.shadow
+                            )}
                         >
+
                             {/* Connector Line */}
                             <div className={`absolute top-[-28px] lg:top-[-58px] w-[1px] h-[28px] lg:h-[58px] bg-${item.color}`} />
-                            
+
                             {item.icon}
                             <h3 className="text-xl font-semibold mt-3">{item.title}</h3>
                             <ul className="text-gray-400 text-sm mt-6 text-center space-y-2">
