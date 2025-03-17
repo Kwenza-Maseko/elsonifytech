@@ -48,6 +48,7 @@ export default function Home() {
           More
         </div>
       </div>
+      
       <Welcome />
       <AboutUs />
       <Services />
