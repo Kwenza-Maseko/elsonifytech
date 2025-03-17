@@ -1,10 +1,8 @@
-import Image from "next/image";
 import { Code, Briefcase, Server, Smartphone, MoreHorizontal } from "lucide-react";
 import Welcome from "@/component/Welcome";
 import AboutUs from "@/component/AboutUs";
 import Services from "@/component/Services";
 import Testimonials from "@/component/Testimonials";
-import Rate from "@/component/Rate";
 
 
 export default function Home() {

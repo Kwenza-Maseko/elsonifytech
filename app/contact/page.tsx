@@ -1,5 +1,4 @@
 'use client'
-import Link from 'next/link';
 import { useState } from 'react'
 
 const Page = () => {
@@ -20,7 +19,7 @@ const Page = () => {
                 Support
             </p>
             <div className="flex flex-col gap-[15px] mt-16 text-gray-400">
-                <p className='text-gray-300 text-xl font-bold'>Billing & FAQ's</p>
+                <p className='text-gray-300 text-xl font-bold'>Billing & FAQ&rsquo;s</p>
                 <p>Found out the service billing prices and for FAQs managed by our support team</p>
 
                 <div className="p-2 rounded bg-gray-800 border w-fit flex gap-4 items-center">
@@ -56,7 +55,7 @@ const Page = () => {
                 {/* Sales */}
                 <div className="flex flex-col gap-[15px] mt-8 md:mt-16">
                     <p className='text-gray-300 text-xl font-bold'>Sales</p>
-                    <p>If you're a big company or a small one or need something special, let us know and we'll find a solution.</p>
+                    <p>If you&rsquo;re a big company or a small one or need something special, let us know and we&rsquo;ll find a solution.</p>
 
                     <div className="p-2 rounded bg-gray-800 border w-fit flex gap-4 items-center">
                         <p>sales@elsonifytech.com</p>
