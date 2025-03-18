@@ -7,7 +7,6 @@ import { useState } from 'react';
 const Navbar = () => {
     const pathname = usePathname();
     const [dropdown, setDropdown] = useState(false);
-
     
     return (
         <div className='fixed w-full flex justify-center border-b-[0.5px] border-slate-600 backdrop-blur-lg z-[1000]'>
@@ -27,10 +26,10 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div className='md:flex gap-8 hidden'>
+                    <div className='md:flex gap-8 hidden text-gray-300 '>
                         {navlinks.map((links, index) => (
                             <Link href={links.url} key={index}
-                                className={`${links.url === pathname && "text-cyan-400 border-cyan-400"} h-full text-gray-300 text-sm flex items-center border-b-2 border-transparent hover:border-cyan-400 hover:text-cyan-400 capitalize font-bold `}
+                                className={`h-full text-sm flex items-center border-b-2  hover:text-cyan-400/60 capitalize font-bold ${links.url === pathname ? "text-cyan-400 border-cyan-400" : "border-transparent"}`}
                             >
                                 {links.link}
                                 
@@ -49,10 +48,10 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {dropdown && (<div className='flex flex-col gap-4 md:hidden my-4'>
+                {dropdown && (<div className='flex flex-col gap-4 md:hidden my-4 text-gray-300'>
                     {navlinks.map((links, index) => (
                         <Link href={links.url} key={index}
-                            className={`${links.url === pathname && "text-cyan-400"} h-full text-gray-300 text-sm flex items-center hover:text-cyan-400 capitalize font-bold `}
+                            className={`${links.url === pathname && "text-cyan-400"} h-full text-sm flex items-center hover:text-cyan-400/60 capitalize font-bold `}
                             onClick={() => setDropdown(false)}>
                             {links.link}
                         </Link>
