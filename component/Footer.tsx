@@ -22,15 +22,15 @@ const Footer = () => {
                         <p className='text-lg font-bold'>Company Information</p>
 
                         <div className="flex flex-col gap-4 text-gray-400 mt-4 md:mt-6">
-                        <p>
-                            info@elsonifytech.com
-                        </p>
-                        <p className='text-lg'>
-                            +27 69 191 4401
-                        </p>
+                            <p>
+                                elsonifytechwork@gmail.com
+                            </p>
+                            <p className='text-lg'>
+                                +27 69 191 4401
+                            </p>
+                        </div>
                     </div>
-                    </div>
-                    
+
                 </div>
 
                 <div className="w-[385px]">

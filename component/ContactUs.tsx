@@ -16,7 +16,6 @@ const ContactUs = () => {
     return (
 
         <div className="w-full relative">
-            <div className="absolute right-0 top-0 bg-slate-800 w-[150px] h-[150px] md:w-[300px] md:h-[300px] rounded-bl-[300px] z-[1]" />
             <div className="container mt-[130px] px-4 md:p-0 m-auto relative z-[10]">
                 <p className="md:w-2/3 text-2xl md:text-4xl font-black mt-16">
                     Support
@@ -26,12 +25,12 @@ const ContactUs = () => {
                     <p>Found out the service billing prices and for FAQs managed by our support team</p>
 
                     <div className="p-2 rounded bg-gray-800 border w-fit flex gap-4 items-center">
-                        <p>info@elsonifytech.com</p>
+                        <p>elsonifytechwork@gmail.com</p>
                         <div
                             className='border-l border-gray-400 pr-2 pl-2 cursor-pointer'
-                            onClick={() => handleCopy('info@elsonifytech.com')}
+                            onClick={() => handleCopy('elsonifytechwork@gmail.com')}
                         >
-                            <p>{copiedEmail === 'info@elsonifytech.com' ? 'Copied' : 'Copy'}</p>
+                            <p>{copiedEmail === 'elsonifytechwork@gmail.com' ? 'Copied' : 'Copy'}</p>
                         </div>
                     </div>
 
@@ -45,12 +44,12 @@ const ContactUs = () => {
                         <p>For Partnership or investments to grow your business and enjoy the benefits of our services make sure you contact us</p>
 
                         <div className="p-2 rounded bg-gray-800 border w-fit flex gap-4 items-center">
-                            <p>partnership@elsonifytech.com</p>
+                            <p>kwenzaelson80@gmail.com</p>
                             <div
                                 className='border-l border-gray-400 pr-2 pl-2 cursor-pointer'
-                                onClick={() => handleCopy('partnership@elsonifytech.com')}
+                                onClick={() => handleCopy('kwenzaelson80@gmail.com')}
                             >
-                                <p>{copiedEmail === 'partnership@elsonifytech.com' ? 'Copied' : 'Copy'}</p>
+                                <p>{copiedEmail === 'kwenzaelson80@gmail.com' ? 'Copied' : 'Copy'}</p>
                             </div>
                         </div>
                     </div>
@@ -61,12 +60,12 @@ const ContactUs = () => {
                         <p>If you&rsquo;re a big company or a small one or need something special, let us know and we&rsquo;ll find a solution.</p>
 
                         <div className="p-2 rounded bg-gray-800 border w-fit flex gap-4 items-center">
-                            <p>sales@elsonifytech.com</p>
+                            <p>kwenzangcamane@gmail.com</p>
                             <div
                                 className='border-l border-gray-400 pr-2 pl-2 cursor-pointer'
-                                onClick={() => handleCopy('sales@elsonifytech.com')}
+                                onClick={() => handleCopy('kwenzangcamane@gmail.com')}
                             >
-                                <p>{copiedEmail === 'sales@elsonifytech.com' ? 'Copied' : 'Copy'}</p>
+                                <p>{copiedEmail === 'kwenzangcamane@gmail.com' ? 'Copied' : 'Copy'}</p>
                             </div>
                         </div>
                     </div>

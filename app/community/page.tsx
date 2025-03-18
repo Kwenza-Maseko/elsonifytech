@@ -9,10 +9,8 @@ export const metadata: Metadata = {
 
 const page = () => {
     return (
-        <div className="w-full relative">
+        <div className="w-full relative z-[10]">
             {/* Background Shape (Lower z-index) */}
-            <div className="absolute right-0 top-0 bg-slate-800 w-[150px] h-[150px] md:w-[300px] md:h-[300px] rounded-bl-[300px] z-[1]" />
-
             <div className="container mt-[130px] px-4 lg:px-0 m-auto items-center relative z-[10]">
 
                 {/* Hero Section */}

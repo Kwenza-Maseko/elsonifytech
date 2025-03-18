@@ -9,8 +9,9 @@ export const metadata: Metadata = {
 const Page = () => {
 
     return (
-        <div className="w-full">
-            <ContactUs />
+        <div className="w-full relative">
+            <div className="absolute right-0 top-0 bg-slate-800 w-[150px] h-[150px] md:w-[300px] md:h-[300px] rounded-bl-[300px] z-[1]" />
+            <ContactUs/>
         </div>
     );
 }
