@@ -5,7 +5,7 @@ import { testimonials } from '@/constants';
 const Testimonials = () => {
     return (
         <div className="text-gray-400 my-12 flex flex-col items-center">
-            <p className="text-gray-300 text-xl md:text-2xl font-bold mb-4">What Our Clients Say</p>
+            <h3 className="text-gray-300 text-2xl font-bold mb-4">What Our <span className="text-cyan-400">Clients</span> Say</h3>
             
             <div className="flex flex-wrap justify-center gap-6 mt-4">
                 {testimonials.map((testimonial, index) => (

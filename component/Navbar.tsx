@@ -3,26 +3,32 @@ import Link from 'next/link'
 import { navlinks } from '@/constants'
 import { usePathname } from "next/navigation";
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
     const pathname = usePathname();
     const [dropdown, setDropdown] = useState(false);
-    
+
     return (
         <div className='fixed w-full flex justify-center border-b-[0.5px] border-slate-600 backdrop-blur-lg z-[1000]'>
             <div className="container px-4 lg:px-0 m-auto items-center">
 
-                <div className="flex gap-[50px] justify-between md:justify-start">
-                    <div className="py-4">
+                <div className="flex gap-[100px] justify-between md:justify-start">
+                    <div className="py-4 relative">
                         <Link href="/" className="relative w-fit">
-                            <div className="flex gap-[4.5px] text-whites">
-                                <p className='besley-font drop-shadow-[0_0_1.5px_rgba(255,255,255,0.5)] '>els</p>
-                                <p className='besley-font drop-shadow-[0_0_1.5px_rgba(255,255,255,0.5)] '>nifytech .</p>
+                            <div className="flex items-center gap-2 text-white">
+                                <Image
+                                    src="/assets/es logo.png" // Make sure the file name matches exactly
+                                    width={50}
+                                    height={50}
+                                    alt="Elsonify Logo"
+                                    className=""
+                                />
+                                <div className="relative hidden md:flex flex-col gap-2">
+                                    <p className="besley-font text-white leading-none">ELSONIFY SOFTWARE</p>
+                                    <p className="bellota-regular text-purple-500 leading-none">Innovate Limitless</p>
+                                </div>
                             </div>
-
-                            <p className='besley-font absolute left-[33px] top-0 text-outline'>o</p>
-
-                            <p className='bellota-regular absolute right-0 top-[33px] text-gray-200'>Innovate Limitless</p>
                         </Link>
                     </div>
 
@@ -32,7 +38,7 @@ const Navbar = () => {
                                 className={`h-full text-sm flex items-center border-b-2  hover:text-cyan-400/60 capitalize font-bold ${links.url === pathname ? "text-cyan-400 border-cyan-400" : "border-transparent"}`}
                             >
                                 {links.link}
-                                
+
                             </Link>
                         ))}
                     </div>

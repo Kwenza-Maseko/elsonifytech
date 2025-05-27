@@ -16,13 +16,13 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row justify-center gap-6">
-          <div className="w-full">
-            <p className="text-2xl md:text-4xl font-black">
-              Innovate. Build. Deploy. 🚀 <br />
-              Transforming Ideas into Scalable Tech Solutions.
-            </p>
+          <div className="w-full text-center md:text-start">
+            <h1 className="text-3xl md:text-4xl font-black">
+              Innovate. Build. Deploy. 🚀 <br className="hidden md:block"/>
+              <span className="text-cyan-400">Transforming Ideas</span> into Scalable Tech Solutions.
+            </h1>
             <p className="mt-6 text-gray-400">
-              Welcome to ElsonifyTech – Where Innovation Meets Execution.
+              Welcome to Elsonify Software – Where Innovation Meets Execution.
             </p>
           </div>
 

@@ -65,16 +65,15 @@ html {
 
 .bellota-regular {
   font-family: "Bellota", system-ui;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
-  font-size: 7pt;
-  letter-spacing: 0.3px;
+  font-size: 15pt;
+  letter-spacing: 2.5px;
 }
 .besley-font{
   font-family: "Besley", serif;
-  font-weight: 600;
-  font-size: 20pt;
-  letter-spacing: -0.2px;
+  font-weight: 900;
+  font-size: 11pt;
 }
 .text-outline {
   -webkit-text-stroke: 1px #ff8a00; /* Orange outline */

@@ -13,15 +13,15 @@ const Services = () => {
 
     return (
         <div className='text-gray-400 my-10 flex flex-col items-center'>
-            <p className='text-gray-300 text-xl md:text-2xl  font-bold mb-4'>Our Services</p>
+            <h3 className='text-gray-300 text-2xl font-bold mb-4'>Our <span className="text-cyan-400">Services</span> </h3>
             <p className="max-w-xl text-center px-4">
-                At <span className="text-gray-300 font-semibold">ElsonifyTech</span>, we believe in <span className="text-gray-300 font-semibold">Innovate Limitless</span>—pushing boundaries, redefining possibilities, and building solutions that transform businesses. Our cutting-edge services ensure that you stay ahead in a digital-first world.
+                At <span className="text-gray-300 font-semibold">Elsonify Software</span>, we believe in <span className="text-gray-300 font-semibold">Innovate Limitless</span>—pushing boundaries, redefining possibilities, and building solutions that transform businesses. Our cutting-edge services ensure that you stay ahead in a digital-first world.
             </p>
 
             <div className="flex flex-col items-center justify-center text-white py-10">
                 {/* Powered By Chip */}
                 <div className="relative flex items-center justify-center px-6 py-3 bg-gray-800 border border-gray-300 text-lg font-semibold rounded-lg shadow-lg shadow-gray-300/20">
-                    ElsonifyTech
+                    Elsonify Software
                     {/* Connector Lines */}
                     <div className="absolute top-full md:h-[92px] lg:h-[41px] hidden md:block w-[1px] bg-purple-500 md:bg-yellow-500 lg:bg-purple-500 right-4"></div>
                     <div className="absolute top-full h-[80px] md:h-[400px] lg:h-[42px] w-[1px] bg-blue-500 md:bg-purple-500 lg:bg-yellow-500"></div>

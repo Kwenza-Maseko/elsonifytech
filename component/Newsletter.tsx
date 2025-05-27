@@ -57,37 +57,39 @@ const Newsletter = () => {
                 </div>
             </div>
 
-            <div className=' w-full'>
-                <p className='font-bold mb-4'>Chat with the community</p>
-                <div className="flex gap-2 md:gap-4">
-                    <Link href="/" className="relative w-[35px] h-[35px]">
-                        <Image
-                            src={"/assets/linkedin-logo.png"}
-                            alt='linkedin'
-                            fill
-                        />
-                    </Link>
+            <div className=' w-full flex flex-col md:flex-row justify-center md:justify-start'>
+                <div className="w-full">
+                    <p className='font-bold mb-4'>Chat with the community</p>
+                    <div className="flex gap-2 md:gap-4">
+                        <Link href="/" className="relative w-[35px] h-[35px]">
+                            <Image
+                                src={"/assets/linkedin-logo.png"}
+                                alt='linkedin'
+                                fill
+                            />
+                        </Link>
 
-                    <Link href="/" className="relative w-[35px] h-[35px]">
-                        <Image
-                            src={"/assets/facebook-logo.png"}
-                            alt='facebook'
-                            fill
-                        />
-                    </Link>
+                        <Link href="/" className="relative w-[35px] h-[35px]">
+                            <Image
+                                src={"/assets/facebook-logo.png"}
+                                alt='facebook'
+                                fill
+                            />
+                        </Link>
 
-                    <Link href="/" className="relative w-[35px] h-[35px]">
-                        <Image
-                            src={"/assets/instagram-logo.png"}
-                            alt='instagram'
-                            fill
-                        />
-                    </Link>
-                    <Link href={"https://discord.com/channels/1351524157975826453/1351524864946733097"} className='shadow-box p-2 px-4 rounded-md' target='_blank'>
-                        Join Community Chat
-                    </Link>
+                        <Link href="/" className="relative w-[35px] h-[35px]">
+                            <Image
+                                src={"/assets/instagram-logo.png"}
+                                alt='instagram'
+                                fill
+                            />
+                        </Link>
+                        <Link href={"https://discord.com/channels/1351524157975826453/1351524864946733097"} className='shadow-box p-2 px-4 rounded-md' target='_blank'>
+                            Join Community Chat
+                        </Link>
+                    </div>
+
                 </div>
-
             </div>
         </div>
     )

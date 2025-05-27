@@ -2,7 +2,7 @@ import ContactUs from '@/component/ContactUs';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "ElsonifyTech - Contact",
+    title: "Elsonify Software - Contact",
     description: "Innovative Limitless. A leading tech company",
 };
 

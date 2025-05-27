@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import React from 'react'
 
 export const metadata: Metadata = {
-    title: "ElsonifyTech - Blog",
+    title: "Elsonify Software - Blog",
     description: "Innovative Limitless. A leading tech company",
   };
 
@@ -22,11 +22,11 @@ const page = () => {
                             Blog
                         </p>
                         <p className="mt-6 text-gray-400">
-                            Welcome to ElsonifyTech – Where Innovation Meets Execution.
+                            Welcome to Elsonify Software – Where Innovation Meets Execution.
                         </p>
 
                         <p className="mt-6 text-gray-400">
-                            Get updated about innovation of ElsonifyTech 
+                            Get updated about innovation of Elsonify Software 
                         </p>
 
                         <div className="mt-8">

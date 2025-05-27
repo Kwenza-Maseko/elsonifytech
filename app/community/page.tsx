@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import React from 'react'
 
 export const metadata: Metadata = {
-    title: "ElsonifyTech - Community",
+    title: "Elsonify Software - Community",
     description: "Innovative Limitless. A leading tech company",
   };
 
@@ -20,7 +20,7 @@ const page = () => {
                             Community Chat
                         </p>
                         <p className="mt-6 text-gray-300 font-italic p-4 rounded-md bg-slate-600">
-                            Welcome to ElsonifyTech Community click <span className='font-bold text-white capitalize'>join discord</span> button below to interact with other people if you already not joined the community yet. Use this community platform to provide feedbacks or enquiries about ElsonifyTech. Enjoy!
+                            Welcome to Elsonify Software Community click <span className='font-bold text-white capitalize'>join discord</span> button below to interact with other people if you already not joined the community yet. Use this community platform to provide feedbacks or enquiries about Elsonify Software. Enjoy!
                         </p>
                     </div>
 

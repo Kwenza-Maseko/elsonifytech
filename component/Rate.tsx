@@ -59,7 +59,7 @@ const Rate = () => {
                             <div className="flex flex-col gap-2 items-center mb-6">
                                 <div>
                                     <AlertDialogTitle className="pacifico-regular text-gray-800">
-                                        ElsonifyTech
+                                        Elsonify Software
                                     </AlertDialogTitle>
                                     <p className="text-xs capitalize text-gray-700 text-center">
                                         Innovate Limitless
