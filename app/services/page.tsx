@@ -20,7 +20,7 @@ const page = () => {
 
                 {/* Hero Section */}
                 <div className="flex flex-col md:flex-row justify-center gap-6">
-                    <div className="w-full">
+                    <div className="w-full text-center">
                         <p className="text-2xl md:text-4xl font-black">
                             Services We Provide
                         </p>

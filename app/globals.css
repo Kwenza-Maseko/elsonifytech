@@ -67,13 +67,11 @@ html {
   font-family: "Bellota", system-ui;
   font-weight: 500;
   font-style: normal;
-  font-size: 15pt;
   letter-spacing: 2.5px;
 }
 .besley-font{
   font-family: "Besley", serif;
   font-weight: 900;
-  font-size: 11pt;
 }
 .text-outline {
   -webkit-text-stroke: 1px #ff8a00; /* Orange outline */

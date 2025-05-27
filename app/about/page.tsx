@@ -17,8 +17,8 @@ const page = () => {
             <div className="container mt-[130px] px-4 lg:px-0 m-auto items-center relative z-[10]">
 
                 {/* Hero Section */}
-                <div className="flex flex-col md:flex-row justify-center gap-6">
-                    <div className="w-full">
+                <div className="flex flex-col md:flex-row justify-center  gap-6">
+                    <div className="w-full text-center">
                         <p className="text-2xl md:text-4xl font-black">
                             About Us
                         </p>

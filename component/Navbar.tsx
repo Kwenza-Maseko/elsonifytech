@@ -25,8 +25,8 @@ const Navbar = () => {
                                     className=""
                                 />
                                 <div className="relative hidden md:flex flex-col gap-2">
-                                    <p className="besley-font text-white leading-none">ELSONIFY SOFTWARE</p>
-                                    <p className="bellota-regular text-purple-500 leading-none">Innovate Limitless</p>
+                                    <p className="text-lg text-white leading-none">ELSONIFY SOFTWARE</p>
+                                    <p className="bellota-regular text-lg text-purple-500 leading-none">Innovate Limitless</p>
                                 </div>
                             </div>
                         </Link>
